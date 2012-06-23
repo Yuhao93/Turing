@@ -1,0 +1,89 @@
+.data-container{
+	height:32px;
+	width:100%;
+}
+
+.data-bit{
+	font-family:"Arial", Arial, serif;
+	font-size:20px;
+	text-align:center;
+	margin:0px;
+	padding-top:5px;
+	width:32px;
+	height:27px;
+	background-color:#F7F1D1;
+	border: 1px solid #F3E0BB;
+	display:inline-block;
+	cursor:pointer;
+}
+
+.data-selected{
+	border: 4px solid #F3E0BB;
+}
+
+.program-container{
+	display:inline-block;
+}
+
+.button{
+	display:inline-block;
+	font-family:"Arial", Arial, serif;
+	font-size:18px;
+	text-align:center;
+	text-decoration:none;
+	margin:0px;
+	width:32px;
+	height:32px;
+	border-radius:10px;
+}
+
+.play-button{
+	background-color:#4CFF00;
+	color:#3BC600;
+	border:2px solid #3BC600;
+	width:100px;
+}
+.play-button:hover{
+	background-color:#B6FF59;
+}
+
+.selector-container{
+	display:inline-block;
+	border:1px solid #f0f0f0;
+}
+
+
+.command-button{
+	background-color:#FFE049;
+	color:#E0C200;
+	border:2px solid #FFD800;
+}
+.command-button:hover{
+	background-color:#FFEF87;
+}
+.command-button-selected{
+	border:5px solid #FFD800;
+}
+
+.selector-container{
+	vertical-align:top;
+	padding:3px;
+}
+
+.path{
+	font-family:"Arial", Arial, serif;
+	font-size:20px;
+	text-align:center;
+	margin:0px;
+	padding-top:5px;
+	width:32px;
+	height:27px;
+	background-color:#F7F1D1;
+	border: 1px solid #F3E0BB;
+	display:inline-block;
+	cursor:pointer;
+}
+
+.path-selected{
+	background-color:#FFE875;
+}
