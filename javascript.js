@@ -120,8 +120,8 @@ var isRunning = false;
 var data = new Array(24);
 
 
-//Two lines, 10 spaces each
-//0-9 and 20-29
+//Two lines, 20 spaces each
+//0-19 and 30-49
 var program = new Array();
 
 var LEFT = 0, RIGHT = 1, DOWN = 2, UP = 3;
@@ -198,7 +198,6 @@ function parse_program(){
 			//If
 			if(command.type == IF){
 				var condition = extra.condition;
-				alert(data[data_pointer] == condition);
 				if(data[data_pointer] == condition){
 					if(program_pointer >= 0 && program_pointer <= 19)
 						program_pointer += 30;
